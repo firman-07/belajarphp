@@ -11,12 +11,8 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $karakter = "Belajar PHP Menggunakan Substring";
+    echo "karakter yang di ambil: ", substr($karakter, 0, 15);
     ?>
 
 </body>

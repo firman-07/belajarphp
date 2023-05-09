@@ -11,12 +11,9 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $stringTunggal = "syahru, firman, arya, arif";
+    $explode = explode(",", $stringTunggal);
+    print_r($explode);
     ?>
 
 </body>

@@ -11,12 +11,8 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $strlen = "belajar php menggunakan strlen()";
+    echo "jumlahkarakter: ", strlen($strlen);
     ?>
 
 </body>

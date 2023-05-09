@@ -11,12 +11,9 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $arrayTampung = array("Firman", "Arya", "Bintang", "Arif");
+    $implode = implode(", ", $arrayTampung);
+    echo $implode;
     ?>
 
 </body>

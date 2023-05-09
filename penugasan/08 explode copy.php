@@ -11,13 +11,16 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $string = "syahru, firman, arya, arif";
+    $explode = explode(",", $string);
+    print_r($explode);
     ?>
+    <?php
+    $stringTunggal = "html, css, javascrpit, php";
+    $explode = explode("-", $stringTunggal);
+    print_r($explode);
+    ?>
+
 
 </body>
 

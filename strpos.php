@@ -5,20 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar PHP</title>
+    <title>bELAJAR php</title>
 </head>
 
 <body>
-
-    <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    <?PHP
+    $strPos = "Belajar php strpos()";
+    $searchStrPos = "strpos()";
+    echo strpos($strPos, $searchStrPos);
     ?>
-
 </body>
 
 </html>

@@ -11,12 +11,9 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $string = "Belajar PHP Menggunakan string";
+    $number = 10000000000;
+    echo $string, $number;
     ?>
 
 </body>

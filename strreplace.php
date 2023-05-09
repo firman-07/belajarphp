@@ -11,12 +11,9 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $karakter = "belajar php menggunakan karakter$karakter(saya firman)";
+    echo "karekter sebelum di ubah: ", $karakter;
+    echo "karekter setelah di ubah: ", str_replace($karakter, "strlen,", "str_replace");
     ?>
 
 </body>

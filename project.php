@@ -15,8 +15,8 @@
     echo "Belajar PHP";
     echo "/n";
     //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $project = "Belajar PHP Menggunakan var project";
+    echo $project
     ?>
 
 </body>

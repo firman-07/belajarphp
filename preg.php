@@ -11,12 +11,11 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $kalimatString = "saat ini sudah belajar laravel ";
+    $cari = "/sudah/";
+    $gantikan = "belum";
+    echo preg_replace($cari, $gantikan, $kalimatString);
+    echo preg_replace("/sudah/", "belum", "karakter spongbob sudah selesai");
     ?>
 
 </body>

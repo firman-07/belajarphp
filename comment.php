@@ -11,12 +11,17 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    //ini comments online
+    //ini menggunakan variabel kommen untuk menaNGKAP FORMAT STRING
+    $comments = "Belajar PHP (comments";
+    echo $comments;
+
+    echo "/n"
+
+    /*
+    ini adalah komentar dengan menggunakan multiple line
+    */
+
     ?>
 
 </body>

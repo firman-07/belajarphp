@@ -11,12 +11,9 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    $karakter = "Belajar PHP Menggunakan lowercase";
+    echo "karakter yang di ubah menjadi huruf kecil
+    : ", strtolower($karakter);
     ?>
 
 </body>

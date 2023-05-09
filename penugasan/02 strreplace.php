@@ -11,12 +11,7 @@
 <body>
 
     <?php
-    //tahap 1
-    echo "Belajar PHP";
-    echo "/n";
-    //tahaap 2
-    $name = "Belajar PHP Menggunakan Var";
-    echo $name
+    echo str_replace("Javascript", "PHP", "Kita sedang belajar Javascript");
     ?>
 
 </body>
