@@ -64,17 +64,7 @@
             break;
     }
     echo "<br>";
-    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-    $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
-
-    $query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
-
-    $result = $mysqli->query($query);
-
-    /* fetch associative array */
-    while ($row = $result->fetch_assoc()) {
-        printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
-    }
+    
     ?>
 
 </body>
